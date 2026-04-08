@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA 6 — Информационный портал</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">GTA 6 INFO</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav class="nav">
+      <a href="#home">Главная</a>
+      <a href="#news">Новости</a>
+      <a href="#characters">Персонажи</a>
+      <a href="#map">Локации</a>
+      <a href="#release">Дата выхода</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+  </header>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero" style="background-image: url('img/hero.jpg');">
+    <div class="hero-overlay">
+      <h1 class="gta-title">GRAND THEFT AUTO VI</h1>
+      <p class="hero-sub">Все новости, факты и слухи о GTA 6 в одном месте</p>
+    </div>
+  </section>
+<section id="trailers" class="section">
+  <h2 class="section-title">Трейлеры GTA 6</h2>
+
+  <!-- Official Trailer 1 -->
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/QdBZY2fkU-0"
+      title="GTA 6 Official Trailer 1"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Official Trailer 2 -->
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/VQRLujxTm3c"
+      title="GTA 6 Official Trailer 2"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+  <!-- NEWS SECTION -->
+  <section id="news" class="section">
+    <img src="img/news.jpg" class="section-image" alt="Новости GTA 6">
+    <h2 class="section-title">Новости GTA 6</h2>
+    <div class="news-card">
+      <h3>Трейлер GTA 6 побил мировой рекорд</h3>
+      <p>Более 100 млн просмотров за первые сутки — абсолютный рекорд игровой индустрии.</p>
+    </div>
+    <div class="news-card">
+      <h3>Rockstar подтверждает релиз в 2026 году</h3>
+      <p>Игра официально выйдет на PlayStation 5 и Xbox Series X/S.</p>
+    </div>
+    <div class="news-card rumor">
+      <h3>Слухи: карта станет самой большой у Rockstar</h3>
+      <p>Инсайдеры утверждают, что площадь мира превзойдёт RDR2.</p>
+    </div>
+  </section>
+
+  <!-- CHARACTERS SECTION -->
+  <section id="characters" class="section">
+    <img src="img/characters.jpg" class="section-image" alt="Персонажи GTA 6">
+    <h2 class="section-title">Персонажи</h2>
+    <p><strong>Люсия</strong> — главный подтверждённый персонаж GTA 6. В трейлере показана её криминальная история.</p>
+    <p><strong>Джейсон Дюваль — персонаж, являющийся одним из двух протагонистов Grand Theft Auto VI</strong></p>
+  </section>
+
+  <!-- MAP SECTION -->
+  <section id="map" class="section">
+    <img src="img/map.jpg" class="section-image" alt="Карта GTA 6">
+    <h2 class="section-title">Локации</h2>
+    <p>События игры происходят в <strong>Вайс-Сити</strong> — современном Майами.</p>
+    <p>Также будут пляжи, болота, сельские районы и небольшие городки.</p>
+  </section>
+
+  <!-- RELEASE SECTION -->
+  <section id="release" class="section">
+    <img src="img/release.jpg" class="section-image" alt="Дата выхода GTA 6">
+    <h2 class="section-title">Дата выхода</h2>
+    <ul>
+      <li><strong>Релиз:</strong> Изначально Rockstar планировала релиз GTA 6 весной 2026 (например 26 мая) после отсрочки с 2025 года, но позже официально объявила новую дату — <b>19 ноября 2026 года</b> для консолей PlayStation 5 и Xbox Series X/S.</li>
+      <li><strong>Платформы:</strong> PS5, Xbox Series X/S</li>
+      
+    </ul>
+  </section>
+
+  <!-- GALLERY SECTION -->
+ <section id="gallery" class="section">
+  <img src="img/gallery.jpg" class="section-image" alt="Галерея GTA 6">
+  <h2 class="section-title">Галерея</h2>
+
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="img/gallery1.jpg" alt="Скриншот 1"></div>
+    <div class="gallery-item"><img src="img/gallery2.jpg" alt="Скриншот 2"></div>
+    <div class="gallery-item"><img src="img/gallery3.jpg" alt="Скриншот 3"></div>
+  </div>
+</section>
+  <footer class="footer">© 2026 GTA 6 Info Fan Project ЛЕНЯ БАЛБЕС</footer>
+  <script>
+function toggleMenu() {
+  document.querySelector('.nav').classList.toggle('open');
+}
+</script>
+</body>
+</html>
